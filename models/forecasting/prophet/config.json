@@ -1,0 +1,24 @@
+{
+  "daily_seasonality": "auto",
+  "dim": 1,
+  "exog_aggregation_policy": "Mean",
+  "exog_missing_value_policy": "ZFill",
+  "exog_transform": {
+    "bias": null,
+    "name": "MeanVarNormalize",
+    "normalize_bias": true,
+    "normalize_scale": true,
+    "scale": null
+  },
+  "holidays": null,
+  "invert_transform": true,
+  "max_forecast_steps": null,
+  "seasonality_mode": "additive",
+  "target_seq_index": 0,
+  "transform": {
+    "name": "Identity"
+  },
+  "uncertainty_samples": 100,
+  "weekly_seasonality": "auto",
+  "yearly_seasonality": "auto"
+}
